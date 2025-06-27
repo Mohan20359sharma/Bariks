@@ -15,6 +15,7 @@ body{
     height: 65px;
 }
 .left{
+    background-color: black;
     display: flex;
     /* gap: 10px; */
     position: relative;
@@ -107,6 +108,9 @@ main .left-main{
     font-weight: bold;
     color:rgba(221, 76, 138, 1);
     background-color: transparent;
+}
+.star{
+    color: black;
 }
 .head-3{
     font-size: 30px;
@@ -201,13 +205,12 @@ main .left-main{
 }
 
 
-.chamber img{
-    height: 219%;
-    width: 150%;
+.chamber img{    height: 100%;
+    width: 228%;
     object-fit: cover;
-    position: relative;
-    top: -271px;
-    left: -176px;
+    position: absolute;
+    top: -32px;
+    left: -374px
 }
 .certified{
     background-color: green;
@@ -246,4 +249,35 @@ main .right-main{
 .israel-innovation img{
     width: 100%;
     object-fit: cover;
+}
+   .list{
+        display: flex;    
+        background-color: rgba(247, 247, 247, 1);
+        /* background-color: green; */
+        /* width: 100%; */
+        justify-content: space-between;
+        padding: 5px 0px;
+        height: 40px;
+        position: relative;
+        top: 22px;
+        border-radius: 20px;
+    }
+    .grow{
+        /* height: 1px; */
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .important{
+        color:rgba(221, 76, 138, 1);
+    }
+    .line {
+        margin-top: 0px;
+        width: 2px;
+        height: 40px;
+        background: linear-gradient(
+            180deg,
+            rgba(221, 76, 138, 0) 0%,
+            #DD4C8A 50%,
+            rgba(221, 76, 138, 0) 100%
+        );
 }
