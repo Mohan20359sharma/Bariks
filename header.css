@@ -80,6 +80,17 @@ main .left-main{
     background-color: rgba(247, 247, 247, 1);
         /* background-color: green; */
 }
+.israel-navy{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.israel-navy img{
+    height: 100%;
+    width: 100%;
+}
 .mid-main{
     height: 780px;
     position: relative;
@@ -132,46 +143,41 @@ main .left-main{
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);    
 }
-main .right-main{
-    width: 350px;
-    height: 780px;
-    position: relative;
-    top: px;
-    border-radius:0px 15px 15px 0px ;
-    background-color: rgba(247, 247, 247, 1);
-        /* background-color: green; */
-}
 .div-img{
     display: flex;
+    align-items: center;
+    position: relative;
+    left: -79px;
+    /* background-color: grey; */
 }
 .COLLABORATIONS{
     position: relative;
-    left: -170px;
-    width: 256px;
+    left: -77px;
+    width: 200px;
     background-color: white;
     box-shadow: -5px -5px 2px 2px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    height: 150px;
+    height: 100px;
     padding: 20px 20px;
     font-size: 15px;
+    top: -66px;
 }
 .COLLABORATIONS h1{
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-bottom: 5px;
 }
 .COLLABORATIONS p{
     color: rgb(87, 87, 87);
+    font-size: 12px;
 }
-/* .chamber{
-    background-image: url('heater.png');
-    height: 50px;
-    width: 50px;
-} */
 
 .chamber{
  position: relative;
- /* width: 700px; */
- margin-left: 40px;
+ width: 500px;
+ height: 400px;
+ /* background-color: green; */
+ /* margin-left: 40px; */
 
 }
 .chamber::before {
@@ -181,8 +187,7 @@ main .right-main{
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
-  width: 600px;  /* increased width
-height: 200px;   /* increased height */
+  width: 300px;  
   background: radial-gradient(
     circle,
     rgba(46, 58, 140, 0.3) 0%,
@@ -197,10 +202,48 @@ height: 200px;   /* increased height */
 
 
 .chamber img{
-  height: 300px;
-  object-fit: cover;
-  /* width: 600px; */
-  z-index: 1;
-  position: relative; /* 👉 Yeh zaroori hai */
-  top: -100px;
+    height: 219%;
+    width: 150%;
+    object-fit: cover;
+    position: relative;
+    top: -271px;
+    left: -176px;
+}
+.certified{
+    background-color: green;
+    height: 160px;
+    width: 160px;
+
+    position: relative;
+    top: 510px;
+    left: -78px;
+    
+}
+.certified img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    /* right: -500px; */
+}
+main .right-main{
+    height: 780px;
+    width: 350px;
+    position: relative;
+    top: px;
+    border-radius:15px 0px 0px 15px ;
+    background-color: rgba(247, 247, 247, 1);
+        /* background-color: green; */
+}
+.israel-innovation{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    
+}
+.israel-innovation img{
+    width: 100%;
+    object-fit: cover;
 }
