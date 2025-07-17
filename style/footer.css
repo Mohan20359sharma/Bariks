@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 25px;
+    border-radius: 20px 20px 0px 0px;
+}
+.footer{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(24,27,52,1);
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+.footer-box{
+    width: 33.28%;
+    height: 30vh;
+    text-align: center;
+    border-width: 1px 1px 0px 0px;
+    border-style:solid;
+    border-color: gray;
+    position: relative;
+}
+.logo img{
+    height: 10vh;
+}
+.call i,
+.email i,
+.location i{
+    font-size:17px;
+    color:white;
+    background-color: blue;
+    padding: 12px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #2e3a8c, #8e44ad, #e67e22, #e84393);
+    position: relative;
+    top: 9px;
+}
+.outer-i{
+    /* display: flex; */
+    width: 4vw;
+    height: 9vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 42%;
+    border-radius: 50%;
+    background: linear-gradient(to right, #c7ccea, #e1b7f4, #f0c9a6, #f0b5d1);
+    margin-top: 30px;
+    
+}
+.upper{
+    margin-top: 20px;
+    color: rgba(221, 76, 138, 1);
+    font-weight: bold;
+}
+.add,
+.about p{
+    font-size: 17px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    width: 54%;
+    text-align: center;
+    position: relative;
+    left: 104px;
+}
+.icons i{
+    font-size: 18px;
+    margin-inline-start: 40px;
+    width: 3vw;
+    height: 6vh;
+    border:2px solid;
+    border-radius: 50%;      
+    border-left-color: #2e3a8c;
+    border-top-color: #8e44ad;
+    border-bottom-color:#e67e22 ;
+    border-right-color: #e84393 ;
+    text-align: center;
+    justify-content: center;
+}
+.icons i::before{
+    position: relative;
+    top: 12px;
+}
+.item-center{
+    margin-top: 48px;
+}
+.top-element{
+    border-width: 0px 1px 0px 0px;
+}
+.empty{
+    /* height: 1/0px; */
+    width: 97%;
+    margin-top: 20px;
+    border: solid grey;
+    border-width: 0px 0px 1px 0px;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+.copyright p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(76, 74, 74);
+    text-align: center;
+    font-size: 16px;
+}

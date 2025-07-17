@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: 'Public Sans';
+}
+.head{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    position:relative;
+}
+.left a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+.left{
+    background-color: black;
+    display: flex;
+    /* gap: 10px; */
+    position: relative;
+    right: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    /* color: rgb(112, 112, 112); */
+    white-space: nowrap;
+    
+}
+.left a:active{
+    color: white;
+    font-weight: bold;
+    
+}
+.img img{
+    position: relative;
+    width: 100.63636016845703;
+    height: 50px;
+    left: 50px;
+}
+.box{
+    position: relative;
+    /* top: 12px; */
+    margin-left: 27px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 30px;
+    font-size: 14px;        
+}
+.start-button{
+    padding: 14px 34px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(13, 13, 45);
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.Demo{
+    margin-right: 20px;
+    color:rgba(221, 76, 138, 1);
+    font-weight: bold;
+}
+.span{
+    background-color: white;
+    position:relative;
+    padding: 6px 25px;
+    font-weight: bold;
+    border: 1px solid rgb(176, 175, 175);
+    border-radius: 5px;
+}
